@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<ui:composition template="layout.xhtml">
+    <ui:define name="content">
+        <h:form id="memberForm">
+            <p:panel header="Member Form">
+                <h:panelGrid columns="1">
+                    <p:column>
+                        <p:outputLabel for="firstName" value="First Name"/>
+                        <p:inputText id="firstName" value="#{memberAddController.member.firstName}" />
+                    </p:column>
+                    <p:column>
+                        <p:outputLabel for="lastname" value="Last Name"/>
+                        <p:inputText id="lastname" value="#{memberAddController.member.lastName}" />
+                    </p:column>
+                    <p:column>
+                        <p:outputLabel for="Organization" value="Organization"/>
+                        <p:inputText id="Organization" value="#{memberAddController.member.organization}" />
+                    </p:column>
+                    <p:column>
+                        <p:outputLabel for="Address" value="Address"/>
+                        <p:inputText id="Address" value="#{memberAddController.member.address}" />
+                    </p:column>
+                    <p:column>
+                        <p:outputLabel for="Phone" value="Phone Number"/>
+                        <p:inputText id="Phone" value="#{memberAddController.member.phoneNumber}" />
+                    </p:column>
+                    <p:column>
+                        <p:outputLabel for="email" value="Email"/>
+                        <p:inputText id="email" value="#{memberAddController.member.email}" />
+                    </p:column>
+                    <p:column>
+                        <p:outputLabel for="password" value="Password"/>
+                        <p:password id="password" value="#{memberAddController.member.password}" />
+                    </p:column>
+                    <h:outputText value=" Request admin privileges">
+                    <p:selectBooleanCheckbox value="#{memberAddController.hasRequestedAdmin}"/>
+                    </h:outputText>
+                    <h:commandButton value="Save" action="#{memberAddController.Save}" />
+                </h:panelGrid >
+            </p:panel>
+        </h:form>
+    </ui:define>
+</ui:composition>
+</html>

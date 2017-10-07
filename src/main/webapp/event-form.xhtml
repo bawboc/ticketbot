@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<ui:composition template="layout.xhtml">
+	<ui:define name="content">
+		<h:form id="eventForm">
+			<p:panel header="Event Form">
+				<h:panelGrid columns="1">
+
+					<p:outputLabel for="datetime" value="Date and Time:" />
+					<p:calendar id="datetime" value="#{eventFacesController.date}"
+						pattern="yyyy-MM-dd HH:mm" />
+
+					<p:outputLabel for="name" value="Name: " />
+					<p:inputText id="name" value="#{eventFacesController.event.name}" />
+
+					<p:outputLabel for="location" value="Location: " />
+					<p:inputText id="location"
+						value="#{eventFacesController.event.location}" />
+
+					<p:outputLabel for="venue" value="Venue: " />
+					<p:inputText id="venue" value="#{eventFacesController.event.venue}" />
+
+					<p:outputLabel for="maxTickets" value="Max Tickets: " />
+					<p:inputNumber id="maxTickets"
+						value="#{eventFacesController.event.maxTickets}" />
+
+					<p:outputLabel for="ticketsSold" value="Tickets Sold: " />
+					<p:inputNumber id="ticketsSold"
+						value="#{eventFacesController.event.ticketsSold}" />
+
+					<p:outputLabel for="ticketsAvailable" value="Tickets Available: " />
+					<p:inputNumber id="ticketsAvailable"
+						value="#{eventFacesController.event.ticketsAvailable}" />
+
+					<p:outputLabel for="minimumTickets" value="Minimum Tickets: " />
+					<p:inputNumber id="minimumTickets"
+						value="#{eventFacesController.event.minimumTickets}" />
+
+					<p:outputLabel for="ticketPrice" value="Ticket Price: " />
+					<p:inputNumber id="ticketPrice"
+						value="#{eventFacesController.event.ticketPrice}">
+					</p:inputNumber>
+
+					<p:outputLabel for="description" value="Description: " />
+					<p:inputText id="description"
+						value="#{eventFacesController.event.description}" />
+
+					<h:commandButton value="Save" action="#{eventFacesController.save}" />
+
+				</h:panelGrid>
+			</p:panel>
+		</h:form>
+	</ui:define>
+</ui:composition>
+</html>

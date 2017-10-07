@@ -1,0 +1,8 @@
+com.ticketbot
+com.ticketbot.admin
+com.ticketbot.emails
+com.ticketbot.event
+com.ticketbot.faces.controller
+com.ticketbot.faces.repository
+com.ticketbot.members
+com.ticketbot.sales
