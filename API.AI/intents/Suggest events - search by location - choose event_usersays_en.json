@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2ed8f5e4-0dd4-4d2d-85cf-880baa71c621",
+    "data": [
+      {
+        "text": "October 31st",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506629921
+  },
+  {
+    "id": "9e6321c4-e220-41a6-adf2-f962c8ae0d16",
+    "data": [
+      {
+        "text": "Halloween Fun",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on October 31st",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506629921
+  },
+  {
+    "id": "40db21a6-581f-4fa6-8b6a-f7347003ef3a",
+    "data": [
+      {
+        "text": "Halloween Fun",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506629921
+  }
+]

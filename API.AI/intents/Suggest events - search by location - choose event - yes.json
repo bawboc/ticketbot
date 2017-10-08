@@ -1,0 +1,55 @@
+{
+  "id": "43e46f72-243d-48f2-8138-d7b3d04ecf0a",
+  "parentId": "63557d38-7bb6-4c27-8a39-4f5bd35bf825",
+  "rootParentId": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "name": "Suggest events - search by location - choose event - yes",
+  "auto": true,
+  "contexts": [
+    "Suggestevents-searchbylocation-chooseevent-followup",
+    "geo-city"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suggestevents.Suggestevents-custom.Suggestevents-searchbylocation-custom.Suggestevents-searchbylocation-chooseevent-yes",
+      "affectedContexts": [
+        {
+          "name": "geo-city",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "117e9b70-8924-4982-b91c-2a31937642b8",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many tickets would you like?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "oops!  choose event yes"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507424553,
+  "fallbackIntent": false,
+  "events": []
+}

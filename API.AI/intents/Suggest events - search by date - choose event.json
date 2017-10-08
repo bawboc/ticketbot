@@ -1,0 +1,102 @@
+{
+  "id": "8f382458-bada-415a-961e-14fa3552a5f8",
+  "parentId": "db7fbd78-c6ac-4c02-a275-6b0d502be4a6",
+  "rootParentId": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "name": "Suggest events - search by date - choose event",
+  "auto": true,
+  "contexts": [
+    "Suggestevents-searchbydate-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suggestevents.Suggestevents-custom.Suggestevents-searchbydate-custom",
+      "affectedContexts": [
+        {
+          "name": "suggest-searchbylocation-chooseevent-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Suggestevents-searchbydate-chooseevent-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "geo-city",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "date",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Event_name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "09c9ef68-56e7-4b80-abdf-c503f3030aca",
+          "required": true,
+          "dataType": "@Event_name",
+          "name": "Event_name",
+          "value": "$Event_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, I did not catch the event name.  Can you repeat it?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "cc19e37b-0431-4570-9fce-ebc3d5c15ef6",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "In what city?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "609c8305-5624-41f2-9179-d4622fbfb4b8",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "One more time, please re-confirm the date"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK, confirming you would like to purchase tickets for $Event_name in $geo-city   Correct?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507422125,
+  "fallbackIntent": false,
+  "events": []
+}

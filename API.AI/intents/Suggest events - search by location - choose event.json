@@ -1,0 +1,84 @@
+{
+  "id": "63557d38-7bb6-4c27-8a39-4f5bd35bf825",
+  "parentId": "e5aef4b5-5ba1-4bf6-928e-395167ea3ef6",
+  "rootParentId": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "name": "Suggest events - search by location - choose event",
+  "auto": true,
+  "contexts": [
+    "Suggestevents-searchbylocation-followup",
+    "geo-city"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suggestevents.Suggestevents-custom.Suggestevents-searchbylocation-custom",
+      "affectedContexts": [
+        {
+          "name": "Suggestevents-searchbylocation-chooseevent-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "date",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Event_name",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "geo-city",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "52484a01-595a-470b-9d4c-691b9cde1d43",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please confirm the date"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "474d64c8-3bba-496d-8a41-602eea7b0ae7",
+          "required": true,
+          "dataType": "@Event_name",
+          "name": "Event_name",
+          "value": "$Event_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please confirm the Event name"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK, confirming you would like to purchase tickets for $Event_name on $date.  Correct?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507425029,
+  "fallbackIntent": false,
+  "events": []
+}

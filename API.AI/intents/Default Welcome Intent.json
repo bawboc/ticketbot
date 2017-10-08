@@ -1,0 +1,37 @@
+{
+  "id": "e32455c5-56d5-4f51-831d-53ee034cf6da",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi!  I am Ticketbot.  I can help you purchase tickets to a specific event or suggest tickets if you are not sure what you are interested in.",
+            "Welcome to Ticketbot.  Would you like to purchase tickets for a specific event or would you like to hear about upcoming events?",
+            "Hi!  Are you ready to purchase tickets or would you like to hear about upcoming events?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507346275,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

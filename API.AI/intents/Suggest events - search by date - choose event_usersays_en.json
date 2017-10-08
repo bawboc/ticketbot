@@ -1,0 +1,78 @@
+[
+  {
+    "id": "59258a41-83ca-4280-bffe-7dbe2726807f",
+    "data": [
+      {
+        "text": "Foreman vs Tyson",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506801637
+  },
+  {
+    "id": "84a838f4-4865-48b1-aaad-7d79d5252874",
+    "data": [
+      {
+        "text": "Chicago",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506795834
+  },
+  {
+    "id": "98203529-db61-4962-9233-ccd6cade2d40",
+    "data": [
+      {
+        "text": "Halloween Fun",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506795834
+  },
+  {
+    "id": "0adaa2dc-018e-4d23-9e87-b86e681f6451",
+    "data": [
+      {
+        "text": "Turkey Trot",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Boston",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "October 13th",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506795834
+  }
+]

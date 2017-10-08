@@ -1,0 +1,26 @@
+[
+  {
+    "value": "@sys.geo-city:city",
+    "synonyms": [
+      "@sys.geo-city:city"
+    ]
+  },
+  {
+    "value": "@sys.geo-country:country",
+    "synonyms": [
+      "@sys.geo-country:country"
+    ]
+  },
+  {
+    "value": "@sys.geo-city:city @sys.geo-country:country",
+    "synonyms": [
+      "@sys.geo-city:city @sys.geo-country:country"
+    ]
+  },
+  {
+    "value": "@sys.geo-country:country @sys.geo-city:city",
+    "synonyms": [
+      "@sys.geo-country:country @sys.geo-city:city"
+    ]
+  }
+]

@@ -1,0 +1,703 @@
+[
+  {
+    "id": "207808d0-f336-4b77-a422-e74faa52a8f8",
+    "data": [
+      {
+        "text": "2017 Austin County Fair",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506911123
+  },
+  {
+    "id": "80592fec-f2b8-470c-8c01-d4c58ffb3696",
+    "data": [
+      {
+        "text": "Snow Devils vs. Ice Cats",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506911123
+  },
+  {
+    "id": "358e085e-99d3-43ea-a6f7-fc3aae9df825",
+    "data": [
+      {
+        "text": "I would like ",
+        "userDefined": false
+      },
+      {
+        "text": "Ice Skating",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506911123
+  },
+  {
+    "id": "2eefdc07-516b-4eb7-8eda-f7d8f615fa36",
+    "data": [
+      {
+        "text": "Santa on Broadway",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506911123
+  },
+  {
+    "id": "390e7d21-865b-492d-8d6d-6ab10a6bc044",
+    "data": [
+      {
+        "text": "Tickets to ",
+        "userDefined": false
+      },
+      {
+        "text": "Movie in the park",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506794085
+  },
+  {
+    "id": "dcc9b8aa-85bf-4984-9185-37fab7536fef",
+    "data": [
+      {
+        "text": "I would like tickets to ",
+        "userDefined": false
+      },
+      {
+        "text": "The New Wave Art Fest",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506648811
+  },
+  {
+    "id": "156a16cb-47e9-46f3-8130-e17349ff62e1",
+    "data": [
+      {
+        "text": "Tickets to ",
+        "userDefined": false
+      },
+      {
+        "text": "Tonic \u0026 Gin",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506648811
+  },
+  {
+    "id": "30127417-b642-44bf-bbc6-4ab6561fa555",
+    "data": [
+      {
+        "text": "Turkey Trot",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506648811
+  },
+  {
+    "id": "881c8f3f-f949-42a2-a65a-b83b5b829220",
+    "data": [
+      {
+        "text": "Rock 4 a Cure",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506648811
+  },
+  {
+    "id": "8dded936-aea5-41a7-ada5-8878895dc232",
+    "data": [
+      {
+        "text": "Halloween Fun",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Haddonfield",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " NJ on ",
+        "userDefined": false
+      },
+      {
+        "text": "October 31st",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506632642
+  },
+  {
+    "id": "5217191a-49bd-4a69-ace2-b5a7945967f5",
+    "data": [
+      {
+        "text": "Halloween Fun",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      },
+      {
+        "text": " tickets!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506617259
+  },
+  {
+    "id": "83f45bd7-5764-4dd2-85c1-5b0decb8f5ca",
+    "data": [
+      {
+        "text": "I would like to ",
+        "userDefined": false
+      },
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets for ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "pittsburg",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1506617259
+  },
+  {
+    "id": "6b88b8fe-a8a5-4f7f-8adc-8300ea0ede6b",
+    "data": [
+      {
+        "text": "tickets for ",
+        "userDefined": false
+      },
+      {
+        "text": "Gennady Golovkin vs. Canelo Alvarez",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1505586577
+  },
+  {
+    "id": "587fe6be-1ff3-4c97-b9b7-d8a007abeade",
+    "data": [
+      {
+        "text": "Halloween fun",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505586577
+  },
+  {
+    "id": "2a7af7f2-81b4-41d1-8e23-6c156fc34eb8",
+    "data": [
+      {
+        "text": "Foreman vs Tyson",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1505586577
+  },
+  {
+    "id": "546debb6-1739-4380-85a8-d5707a3681f4",
+    "data": [
+      {
+        "text": "I would like tickets to Terp ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1505582663
+  },
+  {
+    "id": "99fcf069-7d68-41ee-83da-5eb66f7fc252",
+    "data": [
+      {
+        "text": "I would like to ",
+        "userDefined": false
+      },
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets to a ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": false
+      },
+      {
+        "text": " game",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505582108
+  },
+  {
+    "id": "f47be028-970c-40bc-99f4-0a57ae15f178",
+    "data": [
+      {
+        "text": "I would like to ",
+        "userDefined": false
+      },
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets for a specific event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505582108
+  },
+  {
+    "id": "e35fe2cb-3e2d-48bc-b0d3-c3bb007b0b27",
+    "data": [
+      {
+        "text": "I would like to ",
+        "userDefined": false
+      },
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505582108
+  },
+  {
+    "id": "d24a398e-0402-445a-8c70-70946c3afe1a",
+    "data": [
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets to a specific event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505582108
+  },
+  {
+    "id": "d1e14169-a5f6-4462-b857-258b653a94de",
+    "data": [
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets for the ",
+        "userDefined": false
+      },
+      {
+        "text": "game",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505581941
+  },
+  {
+    "id": "2d0985de-cc3f-4dc9-9f57-8b0856081dfc",
+    "data": [
+      {
+        "text": "help me ",
+        "userDefined": false
+      },
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505581941
+  },
+  {
+    "id": "55619719-70f8-4162-ac92-62f1084c890e",
+    "data": [
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505581941
+  },
+  {
+    "id": "820f8a3e-1a02-442f-ba73-1d64d14bce93",
+    "data": [
+      {
+        "text": "specific event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1505581382
+  },
+  {
+    "id": "09901a91-d3aa-4cad-867d-771ad14a9181",
+    "data": [
+      {
+        "text": "I am ready to buy tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1504461280
+  },
+  {
+    "id": "f268135c-f81b-4f2a-b7ac-455052060155",
+    "data": [
+      {
+        "text": "Football",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1504461280
+  },
+  {
+    "id": "23c722ef-64a3-4910-b1c9-0b8d3303b7cf",
+    "data": [
+      {
+        "text": "I would like tickets for a specific event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1504458745
+  },
+  {
+    "id": "b3ec0361-5034-4d0c-93ac-264067f735a6",
+    "data": [
+      {
+        "text": "Volleyball",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1504459231
+  },
+  {
+    "id": "41d87a2c-be48-4dc9-a2f0-4b118ea102a9",
+    "data": [
+      {
+        "text": "I would like ",
+        "userDefined": false
+      },
+      {
+        "text": "four",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " tickets to ",
+        "userDefined": false
+      },
+      {
+        "text": "Sunday\u0027s",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Football game",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1504459168
+  },
+  {
+    "id": "42afdf64-c807-4115-b83c-4cb8ab1c0f33",
+    "data": [
+      {
+        "text": "I would like to buy tickets for ",
+        "userDefined": false
+      },
+      {
+        "text": "today\u0027s",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "game",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1504459168
+  },
+  {
+    "id": "cdef61f1-4415-4e55-b333-5326a576e20b",
+    "data": [
+      {
+        "text": "I would like to ",
+        "userDefined": false
+      },
+      {
+        "text": "purchase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tickets for the ",
+        "userDefined": false
+      },
+      {
+        "text": "Football game",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on September 10, 2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1504459168
+  },
+  {
+    "id": "e68cbc93-ea71-4843-9a36-89e6834760e3",
+    "data": [
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Women\u0027s Lacrosse",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      },
+      {
+        "text": " tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1504459168
+  },
+  {
+    "id": "3b2e957f-7471-4aff-98b3-bc4236d0ce1d",
+    "data": [
+      {
+        "text": "I would like to purchase tickets to ",
+        "userDefined": false
+      },
+      {
+        "text": "Women\u0027s Lacrosse",
+        "alias": "Event_name",
+        "meta": "@Event_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1504459168
+  }
+]

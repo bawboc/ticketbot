@@ -1,0 +1,136 @@
+{
+  "id": "9fe99ff0-fd21-42ce-af05-d830879f178f",
+  "name": "Tickets for a specific event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Ticketsforaspecificevent-followup",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Event_name",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "date",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "geo-city",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b0f18ce6-4306-4c27-8737-95b9c780ca30",
+          "required": true,
+          "dataType": "@Event_name",
+          "name": "Event_name",
+          "value": "$Event_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What event would you like to purchase tickets for?"
+            },
+            {
+              "lang": "en",
+              "value": "What event are you interested in?"
+            },
+            {
+              "lang": "en",
+              "value": "I can check on tickets for you.  What event do you have in mind?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you tell me what event you are interested in?"
+            },
+            {
+              "lang": "en",
+              "value": "Sorry, I didn\u0027t catch the event you are interested in."
+            },
+            {
+              "lang": "en",
+              "value": "I can help you find tickets if you let me know the event name."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e9c2a264-b51c-4499-806a-57570a6f3c13",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What day do you have in mind?"
+            },
+            {
+              "lang": "en",
+              "value": "What day are you interested in?"
+            },
+            {
+              "lang": "en",
+              "value": "I can look up ticket availability for you for a specific date.  What day do you have in mind?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "2565eefc-5c7c-4d1f-9b01-258adc70fda5",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "e24c136b-5e5a-48a8-8a07-4318ed5547f3",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What city please?"
+            },
+            {
+              "lang": "en",
+              "value": "Glad to search for you.  What city are you interested in?"
+            },
+            {
+              "lang": "en",
+              "value": "Please choose a city"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, no events are available on that date (returned from API.AI)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507421668,
+  "fallbackIntent": false,
+  "events": []
+}

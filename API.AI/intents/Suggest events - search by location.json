@@ -1,0 +1,75 @@
+{
+  "id": "e5aef4b5-5ba1-4bf6-928e-395167ea3ef6",
+  "parentId": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "rootParentId": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "name": "Suggest events - search by location",
+  "auto": true,
+  "contexts": [
+    "Suggestevents-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suggestevents.Suggestevents-custom",
+      "affectedContexts": [
+        {
+          "name": "Suggestevents-searchbylocation-followup",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Suggestevents-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "geo-city",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1e29cefa-feae-4dc4-9404-03d2e37370d3",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What city are you interested in?"
+            },
+            {
+              "lang": "en",
+              "value": "What city?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "85154474-52c5-4c07-8009-671ac2406746",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What?  Why land here? (API.AI search by location)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507423928,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "value": "mistake",
+    "synonyms": [
+      "mistake",
+      "error"
+    ]
+  },
+  {
+    "value": "price",
+    "synonyms": [
+      "price",
+      "cost",
+      "deal"
+    ]
+  },
+  {
+    "value": "damaged",
+    "synonyms": [
+      "damaged",
+      "broken",
+      "damage"
+    ]
+  },
+  {
+    "value": "defective",
+    "synonyms": [
+      "defective",
+      "doesn\u0027t work",
+      "defect"
+    ]
+  },
+  {
+    "value": "extra item",
+    "synonyms": [
+      "extra item",
+      "extra stuff"
+    ]
+  }
+]

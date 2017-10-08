@@ -1,0 +1,59 @@
+{
+  "id": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "name": "Suggest events",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Suggestevents-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "date",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "geo-city",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7466f263-58d6-411a-9097-c63327c34f78",
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "d9e1da2e-09be-4239-951b-01180f6526ab",
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK, I am happy to make some suggestions.  Would you like to search by location or date?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507423827,
+  "fallbackIntent": false,
+  "events": []
+}

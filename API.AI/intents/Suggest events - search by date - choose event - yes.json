@@ -1,0 +1,49 @@
+{
+  "id": "cd558cff-b233-4d14-ad83-43fadae6a47e",
+  "parentId": "8f382458-bada-415a-961e-14fa3552a5f8",
+  "rootParentId": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "name": "Suggest events - search by date - choose event - yes",
+  "auto": true,
+  "contexts": [
+    "Suggestevents-searchbydate-chooseevent-followup",
+    "suggest-searchbylocation-chooseevent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suggestevents.Suggestevents-custom.Suggestevents-searchbydate-custom.Suggestevents-searchbydate-chooseevent-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4e4651b8-8b0e-40c8-b817-5fb8c5053ef2",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many tickets would you like?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh my.  Possible error (returned by API.AI Suggest - by Date - Choose - Yes"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507422139,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "db7fbd78-c6ac-4c02-a275-6b0d502be4a6",
+  "parentId": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "rootParentId": "830a8946-d715-4514-bd64-b2a70a70e36f",
+  "name": "Suggest events - search by date",
+  "auto": true,
+  "contexts": [
+    "Suggestevents-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suggestevents.Suggestevents-custom",
+      "affectedContexts": [
+        {
+          "name": "Suggestevents-searchbydate-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Suggestevents-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "date",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "04174af0-5d7d-4977-a016-bfdf35ed230d",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "OK, which date would you like?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What?  Why land here? (API.AI search by date)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507421971,
+  "fallbackIntent": false,
+  "events": []
+}

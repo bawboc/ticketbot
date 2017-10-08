@@ -1,0 +1,54 @@
+{
+  "id": "f6a012a2-d71e-4b6f-a935-22b27926d67d",
+  "parentId": "9fe99ff0-fd21-42ce-af05-d830879f178f",
+  "rootParentId": "9fe99ff0-fd21-42ce-af05-d830879f178f",
+  "name": "Tickets for a specific event - number of tickets",
+  "auto": true,
+  "contexts": [
+    "Ticketsforaspecificevent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Ticketsforaspecificevent.Ticketsforaspecificevent-custom",
+      "affectedContexts": [
+        {
+          "name": "Ticketsforaspecificevent-numberoftickets-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "34bc23b2-b183-48a3-9ef0-1eea0404004e",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many tickets would you like to purchase?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry I didn\u0027t catch that (returned from API.AI number of tix follow-on event)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1505607836,
+  "fallbackIntent": false,
+  "events": []
+}

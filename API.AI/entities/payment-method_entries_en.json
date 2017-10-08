@@ -1,0 +1,47 @@
+[
+  {
+    "value": "Visa",
+    "synonyms": [
+      "Visa"
+    ]
+  },
+  {
+    "value": "Master Card",
+    "synonyms": [
+      "Master Card",
+      "MasterCard"
+    ]
+  },
+  {
+    "value": "American Express",
+    "synonyms": [
+      "American Express"
+    ]
+  },
+  {
+    "value": "Bitcoin",
+    "synonyms": [
+      "Bitcoin",
+      "bit coin"
+    ]
+  },
+  {
+    "value": "Apple Pay",
+    "synonyms": [
+      "Apple Pay"
+    ]
+  },
+  {
+    "value": "Google Wallet",
+    "synonyms": [
+      "Google Wallet"
+    ]
+  },
+  {
+    "value": "PayPal",
+    "synonyms": [
+      "paypal",
+      "pay pal"
+    ]
+  }
+]
